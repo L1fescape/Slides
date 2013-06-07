@@ -1,0 +1,9 @@
+p.smaller, ul.smaller li {
+  font-size:60%;
+}
+p.left, ul.left li {
+  text-align:left;
+}
+ul.left {
+  display:block;
+}
