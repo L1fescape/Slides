@@ -7,3 +7,6 @@ p.left, ul.left li {
 ul.left {
   display:block;
 }
+img.left {
+  float:left;
+}
