@@ -54,9 +54,8 @@
             <li>Brew Cask</li>
             <li>Zsh</li>
             <li>Dotfiles</li>
-            <li>Git</li>
-            <li>Useful Apps</li>
-            <li>Setting Defaults</li>
+            <li>Tools</li>
+            <li>Tips & Tricks</li>
           </ul>
         </section>
 
@@ -112,6 +111,7 @@
               <li>Huge dotfile community</li>
               <li>Git status in command line</li>
               <li>vi mode</li>
+              <li>aliases, functions</li>
               <li>Many, many others</li>
               <li><code>brew install zsh</code></li>
             </ul>
@@ -142,36 +142,74 @@
         <section>
           <h3>Dotfiles</h2>
           <p>Pro tip: backup your configs</p>
+          <ul>
+            <li>vimrc</li>
+            <li>vim plugins</li>
+            <li>sublime text settings</li>
+            <li>zshrc</li>
+            <li>custom zsh themes</li>
+            <li>gitconfig</li>
+            <li>fonts</li>
+            <li>Install script?</li>
+          </ul>
+        </section>
+        
+        <section>
+          <section>
+            <h2>Tools</h2>
+            <p>Learn your tools and learn them well.</p>
+          </section>
+          <section>
+            <h2>Useful Programs</h2>
+            <ul>
+              <li>tmux</li>
+              <li>git</li>
+              <li>pip</li>
+              <li>virtualenv</li>
+              <li>lynx</li>
+              <li>z</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Useful Apps</h3>
+            <ul>
+              <li><a href="http://lightheadsw.com/caffeine/">Caffeine</a></li>
+              <li><a href="http://getcloudapp.com/">Cloudapp</a> / <a href="https://droplr.com/hello">Droplr</a></li>
+              <li><a href="http://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a></li>
+              <li><a href="http://totalfinder.binaryage.com/">Total Finder</a></li>
+              <li><a href="http://adium.im/">Adium</a></li>
+              <li><a href="http://growl.info/">Growl</a></li>
+              <li><a href="http://markedapp.com/">Marked</a></li>
+              <li><a href="http://mizage.com/divvy/">Divvy</a></li>
+              <li><a href="http://shinyplasticbag.com/dragondrop/">DragonDrop</a></li>
+              <li><a href="http://www.alfredapp.com/">Alfred</a></li>
+            </ul>
+          </section>
         </section>
 
         <section>
-          <h2>Git</h2>
-        </section>
-
-        <section>
-        <h2>Useful Apps</h2>
-        <ul>
-          <li><a href="http://lightheadsw.com/caffeine/">Caffeine</a></li>
-          <li><a href="http://getcloudapp.com/">Cloudapp</a> / <a href="https://droplr.com/hello">Droplr</a></li>
-          <li><a href="http://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a></li>
-          <li><a href="http://totalfinder.binaryage.com/">Total Finder</a></li>
-          <li><a href="http://adium.im/">Adium</a></li>
-          <li><a href="http://growl.info/">Growl</a></li>
-          <li><a href="http://markedapp.com/">Marked</a></li>
-          <li><a href="http://mizage.com/divvy/">Divvy</a></li>
-          <li><a href="http://shinyplasticbag.com/dragondrop/">DragonDrop</a></li>
-          <li><a href="http://www.alfredapp.com/">Alfred</a></li>
-        </ul>
-        </section>
-
-        <section>
-          <h2>Settings Defaults</h2>
+          <h2>Tips & Tricks</h2>
+          <br />
+          <p>Super awesome background</p>
+          <pre><code data-trim>/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background</code></pre>
+          <p>Don't automatically rearrange spaces</p>
+          <pre><code data-trim>defaults write com.apple.dock mru-spaces -bool false && killall Dock</code></pre>
+          <p>Use scroll gesture with the Ctrl (^) modifier key to zoom</p>
+          <pre><code data-trim>defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144</code></pre>
+          <p>Disable the warning before emptying the Trash</p>
+          <pre><code data-trim>defaults write com.apple.finder WarnOnEmptyTrash -bool false</code></pre>
         </section>
 
 				<section>
 					<h1>THE END</h1>
           <h3>By Andrew Kennedy</h3>
           <p><a href="http://akenn.org">akenn.org</a> / <a href="https://twitter.com/L1fescape">@L1fescape</a></p>
+          <br />
+          <br />
+          <h3>Credits</h3>
+          <p>Paul Irish / <a href="https://github.com/paulirish">@paulirish</a></p>
+          <p>Mathias Bynens / <a href="https://github.com/mathiasbynens">@mathiasbynens</a></p>
 				</section>
 
 			</div>

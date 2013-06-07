@@ -1,7 +1,7 @@
 p.smaller, ul.smaller li {
   font-size:60%;
 }
-p.left, ul.left li {
+p.left, ul.left li, div.left {
   text-align:left;
 }
 ul.left {
